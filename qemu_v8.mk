@@ -644,7 +644,7 @@ ifeq ($(QEMU_VIRT),true)
 QEMU_MEM 	?= 3072
 QEMU_SMP	?= 4
 else
-QEMU_SMP 	?= 2
+QEMU_SMP 	?= 4
 QEMU_MEM 	?= 1057
 endif
 
